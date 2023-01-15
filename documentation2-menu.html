@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="description" content="Каталог товаров на сайте DSF">
+
+    <title>Catalog/Category/View | ABB</title>
+    <link rel="stylesheet" href="css/simplebar.min.css">
+    <link rel="stylesheet" href="plugins/swiper.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <noscript>
+        <style>
+            /**
+          * Reinstate scrolling for non-JS clients
+          */
+            .simplebar-content-wrapper {
+                overflow: auto;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+
+    
+    
+    <header class="header header--account">
+    <div class="container-wide">
+        
+        <div class="header__inner">
+            <button class="header__menu-burger">
+                Открыть меню
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <h1 class="header__page-title">
+                Документация API
+            </h1>
+
+            <a class="header__logo logo" href="#" data-da="header__list-title,last,1218">
+                <img class="logo__img" src="img/abb_logo.svg" alt="Логотип ABB">
+            </a>
+
+            <nav class="header__menu" data-simplebar>
+                <div class="header__list-wrapper">
+                    <div class="header__list-title">Меню</div>
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__link  header__link--active" href="#">Каталог товаров</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Где купить</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Обучение</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Инструменты</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Документы</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Новости для вас</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Частые вопросы</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+        
+
+    </div>
+</header>
+
+    <main class="main">
+        <div class="submenu">
+  <div class="container container-wide">
+    <nav class="submenu__navigation" data-da="header__list-wrapper,last,1218">
+      <ul class="submenu__list">
+        <li class="submenu__item">
+          <a class="submenu__link submenu__link--active" href="#">
+            Новости для вас
+          </a>
+        </li>
+        <li class="submenu__item">
+          <a class="submenu__link" href="#">Документация API</a>
+        </li>
+        <li class="submenu__item">
+          <a class="submenu__link" href="#">Данные о товарах</a>
+        </li>
+        <li class="submenu__item">
+          <a class="submenu__link" href="#">Сертификация</a>
+        </li>
+        <li class="submenu__item">
+          <a class="submenu__link" href="#">Регистрация проектов</a>
+        </li>
+        <li class="submenu__item">
+          <a class="submenu__link" href="#">Рекламации</a>
+        </li>
+        <li class="submenu__item">
+          <a class="submenu__link" href="#">Данные учетной записи</a>
+        </li>
+      </ul>
+
+      <div class="logout-block submenu__logout">
+        <a class="logout-block__profile" href="#">
+          <div class="logout-block__profile-icon">
+            <svg class="s-icon s-icon--md">
+              <use xlink:href="img/svg/sprite1.svg#ic32_account"></use>
+            </svg>
+          </div>
+          <div class="logout-block__name">Иванов Иван Иванович</div>
+          <div class="logout-block__descr">ООО «Элевел Торговая компания…</div>
+        </a>
+        <button class="logout-block__btn">
+          <svg class="s-icon s-icon--md">
+            <use xlink:href="img/svg/sprite1.svg#ic32_logout"></use>
+          </svg>
+          <span class="visually-hidden">Выйти из профиля</span>
+        </button>
+      </div>
+      <button class="submenu__logout-btn btn btn--secondary">Выйти</button>
+    </nav>
+  </div>
+</div>
+
+        <section class="documentation-menu">
+    <div class="container">
+        <div class="documentation-menu__inner">
+            <ul class="documentation-menu__list">
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link active" href="#">Описание API</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Авторизация</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Данные о товарах</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Данные ETIM</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Сертификаты</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Изображения</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Цены</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Остатки</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Остатки онлайн</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Весо-габаритные характеристики</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Связанные товары</a>
+                </li>
+                <li class="documentation-menu__item">
+                    <a class="documentation-menu__link" href="#">Замены</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <script src="plugins/simplebar.js"></script>
+    <script src="plugins/inputmask.js"></script>
+    <script src="plugins/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
